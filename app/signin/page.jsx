@@ -23,7 +23,7 @@ export default function SignIn() {
     setError("");
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      router.push("/home");
+      router.push("/");
     } catch (err) {
       setError(err.message);
     } finally {
