@@ -278,22 +278,10 @@ export default function Navbar() {
                 Malai Kofta
               </Link>  
               
-               <Link href="/recipes/malai_kofta" className="block px-3 py-2 hover:bg-gray-100 rounded" >
-                Malai Kofta
+               <Link href="/recipes/jeera_aloo" className="block px-3 py-2 hover:bg-gray-100 rounded" >
+                Aloo Jeera
               </Link>  
-              
-               <Link href="/recipes/malai_kofta" className="block px-3 py-2 hover:bg-gray-100 rounded" >
-                Malai Kofta
-              </Link>  
-              
-               <Link href="/recipes/malai_kofta" className="block px-3 py-2 hover:bg-gray-100 rounded" >
-                Malai Kofta
-              </Link>  
-              
-               <Link href="/recipes/malai_kofta" className="block px-3 py-2 hover:bg-gray-100 rounded" >
-                Malai Kofta
-              </Link>
-
+               
               <Link href="/recipes/lauki_sbji" className="block px-3 py-2 hover:bg-gray-100 rounded" >
                 Lauki Sbji
               </Link>
@@ -304,6 +292,10 @@ export default function Navbar() {
 
               <Link href="/recipes/bhindi_masala" className="block px-3 py-2 hover:bg-gray-100 rounded" >
                 Bhindi Sbji
+              </Link> 
+              
+              <Link href="/recipes/karela_sbji" className="block px-3 py-2 hover:bg-gray-100 rounded" >
+                Karela Sabji
               </Link>
             </div>
           )}
