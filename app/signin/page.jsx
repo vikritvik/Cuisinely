@@ -23,7 +23,7 @@ export default function SignIn() {
     setError("");
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      router.push("/home");
+      router.push("/");
     } catch (err) {
       setError(err.message);
     } finally {
@@ -34,7 +34,7 @@ export default function SignIn() {
   const handleGoogleSignIn = async () => {
     try {
       await signInWithPopup(auth, googleProvider);
-      router.push("/home");
+      router.push("/");
     } catch (error) {
       setError("Google sign-in failed. Please try again.");
     }
